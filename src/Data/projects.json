@@ -1,0 +1,26 @@
+[
+  {
+    "title": "SnapChat Clone",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/buntyanvi/Snapchat-"
+  },
+  {
+    "title": "Myntra Clone",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/buntyanvi/mytro-di-myntra"
+  },
+  {
+    "title": "Random Quote Generator",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/buntyanvi/Coding_raja_Random-Quote-Generator"
+  }
+]
