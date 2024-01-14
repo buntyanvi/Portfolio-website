@@ -1,7 +1,6 @@
 // ProjectCard.js
 import React from 'react';
 import styles from './ProjectCard.module.css';
-import Projects from './Projects';
 
 
 const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source } }) => {

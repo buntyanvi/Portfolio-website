@@ -1,7 +1,7 @@
 [
   {
     "title": "Smoke Detection",
-    "imageSrc": "./assets/projects/smoke.png",
+    "imageSrc": "${process.env.PUBLIC_URL}/assets/projects/smoke.png",
     "description": "Developed a smoke detection machine learning project using Python for real-time identification and alerting in environments prone to smoke-related incidents.",
     "skills": ["Machine Learning", "Python"],
     "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Optimized Retail Operations",
-    "imageSrc": "./assets/projects/store.png",
+    "imageSrc": "${process.env.PUBLIC_URL}/assets/projects/store.png",
     "description": "Revolutionize retail efficiency with our General Store Management System, sales tracking, and customer management.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",
