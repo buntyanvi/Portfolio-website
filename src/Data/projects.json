@@ -1,7 +1,7 @@
 [
   {
     "title": "Smoke Detection",
-    "imageSrc": "${process.env.PUBLIC_URL}/assets/projects/smoke.png",
+    "imageSrc": "${process.env.PUBLIC_URL}/assets/projects/smoke.jpg",
     "description": "Developed a smoke detection machine learning project using Python for real-time identification and alerting in environments prone to smoke-related incidents.",
     "skills": ["Machine Learning", "Python"],
     "demo": "https://www.example.com",
