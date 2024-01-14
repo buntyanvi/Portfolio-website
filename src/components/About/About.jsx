@@ -41,7 +41,7 @@ export const About = () => {
               <div className={styles.aboutItemText}>
                 <h3>Machine Learning Engineer</h3>
                 <p>
-                Developed and implemented machine learning algorithms to optimize predictive models for data-driven decision-making.
+                Developed and implemented Machine Learning Engineer to optimize predictive models for data-driven decision-making.
                 </p>
               </div>
             </li>

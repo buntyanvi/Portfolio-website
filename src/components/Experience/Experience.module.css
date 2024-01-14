@@ -129,8 +129,11 @@
         .history{
             width: 100%;
             gap: 9%;
+          margin-right: 80px;
 
-
+        }
+        .historyItemContainer{
+          width: 100%;
         }
 
   }
