@@ -14,7 +14,7 @@ import verzeoImage from '../../../assets/history/verzeo.png'
 import styles from './Experience.module.css';
 import machineImage from '../../../assets/skills/machine.png';
 import javascriptImage from '../../../assets/skills/javascript.png';
-
+import mysqlImage from '../../../assets/skills/mysql.png';
 
 const getSkillImageByTitle = (title) => {
   switch (title) {
@@ -30,6 +30,8 @@ const getSkillImageByTitle = (title) => {
       return nodeImage;
     case 'MongoDB':
       return mongodbImage;
+      case 'MySql':
+        return mysqlImage;
     case 'Figma':
       return figmaImage;
     case 'Python':

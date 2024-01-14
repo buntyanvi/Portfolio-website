@@ -2,7 +2,7 @@
 
 .container {
   margin-top: 76px;
-
+  
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -21,6 +21,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 50px;
   width: 100%;
 }

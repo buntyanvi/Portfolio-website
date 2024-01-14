@@ -1,8 +1,11 @@
-
+// Projects.js
 import React from 'react';
 import styles from './Projects.module.css';
 import projects from '../../Data/projects.json';
 import ProjectCard from './ProjectCard';
+
+
+// rest of the component...
 
 const Projects = () => {
   return (

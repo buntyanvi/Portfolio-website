@@ -1,26 +1,18 @@
 [
   {
-    "title": "SnapChat Clone",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Smoke Detection",
+    "imageSrc": "../../../assets/projects/smoke.png",
+    "description": "Developed a smoke detection machine learning project using Python for real-time identification and alerting in environments prone to smoke-related incidents.",
+    "skills": ["Machine Learning", "Python"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/buntyanvi/Snapchat-"
+    "source": "https://github.com/buntyanvi/Smoke_Detection_ML"
   },
   {
-    "title": "Myntra Clone",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Optimized Retail Operations",
+    "imageSrc": "../../../assets/projects/store.png",
+    "description": "Revolutionize retail efficiency with our General Store Management System, sales tracking, and customer management.",
+    "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",
     "source": "https://github.com/buntyanvi/mytro-di-myntra"
-  },
-  {
-    "title": "Random Quote Generator",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/buntyanvi/Coding_raja_Random-Quote-Generator"
   }
 ]

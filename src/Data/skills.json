@@ -24,6 +24,10 @@
       "imageSrc": "skills/mongodb.png"
     },
     {
+      "title": "MySql",
+      "imageSrc": "skills/mysql.png"
+    },
+    {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
     },
