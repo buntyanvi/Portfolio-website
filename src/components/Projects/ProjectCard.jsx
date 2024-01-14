@@ -1,19 +1,23 @@
-// ProjectCard.js
-import React from 'react';
-import styles from './ProjectCard.module.css';
+// ProjectCard.jsx
+import React from "react";
+import styles from "./ProjectCard.module.css";
+import projectImage from '../../../assets/projects/project.png';
 
-
-const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source } }) => {
- 
+export const ProjectCard = ({
+  project: { title, imageSrc, description, skills, demo, source },
+}) => {
   return (
     <div className={styles.container}>
-      
-      <img src={imageSrc} alt={`Image of ${title}`} className={styles.image} />
+      <img
+        src={projectImage}
+        alt={`Image of ${title}`}
+        className={styles.image}
+      />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => (
-          <li className={styles.skill} key={id}>
+          <li key={id} className={styles.skill}>
             {skill}
           </li>
         ))}

@@ -1,20 +1,18 @@
-// Projects.js
-import React from 'react';
-import styles from './Projects.module.css';
-import projects from '../../Data/projects.json';
-import ProjectCard from './ProjectCard';
+import React from "react";
 
+import styles from "./Projects.module.css";
 
-// rest of the component...
+import projects from "../../data/projects.json";
+import { ProjectCard } from "./ProjectCard";
 
-const Projects = () => {
+export const Projects = () => {
   return (
-    <section className={styles.container} id='project'>
+    <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.projects}>
-        {projects.map((project, id) => (
-          <ProjectCard key={id} project={project} />
-        ))}
+        {projects.map((project, id) => {
+          return <ProjectCard key={id} project={project} />;
+        })}
       </div>
     </section>
   );
