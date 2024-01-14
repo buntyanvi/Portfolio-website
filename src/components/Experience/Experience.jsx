@@ -6,13 +6,15 @@ import htmlImage from '../../../assets/skills/html.png';
 import cssImage from '../../../assets/skills/css.png';
 import reactImage from '../../../assets/skills/react.png';
 import nodeImage from '../../../assets/skills/node.png';
-import graphqlImage from '../../../assets/skills/graphql.png';
+import pythonImage from '../../../assets/skills/python.png'
 import mongodbImage from '../../../assets/skills/mongodb.png';
 import figmaImage from '../../../assets/skills/figma.png';
-import netflixImage from '../../../assets/history/netflix.png';
 import aicteImage from '../../../assets/history/aicte.png';
 import verzeoImage from '../../../assets/history/verzeo.png'
 import styles from './Experience.module.css';
+import machineImage from '../../../assets/skills/machine.png';
+import javascriptImage from '../../../assets/skills/javascript.png';
+
 
 const getSkillImageByTitle = (title) => {
   switch (title) {
@@ -20,18 +22,21 @@ const getSkillImageByTitle = (title) => {
       return htmlImage;
     case 'CSS':
       return cssImage;
+    case 'JavaScript':
+      return javascriptImage;  
     case 'React':
       return reactImage;
     case 'Node':
       return nodeImage;
-    case 'GraphQL':
-      return graphqlImage;
     case 'MongoDB':
       return mongodbImage;
     case 'Figma':
       return figmaImage;
-    // case 'Machine':
-    //   return machineImage;
+    case 'Python':
+      return pythonImage;
+    case 'Machine Learning':
+      return machineImage;
+
     default:
       return null; // Return a default image or handle unknown titles
   }
