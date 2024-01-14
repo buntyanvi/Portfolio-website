@@ -39,10 +39,9 @@ export const About = () => {
             <li className={styles.aboutItem}>
               <img src={uiIcon} alt="UI icon" />
               <div className={styles.aboutItemText}>
-                <h3>UI Designer</h3>
+                <h3>Machine Learning Engineer</h3>
                 <p>
-                  I have designed multiple landing pages and have created design
-                  systems as well
+                Developed and implemented machine learning algorithms to optimize predictive models for data-driven decision-making.
                 </p>
               </div>
             </li>

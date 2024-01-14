@@ -11,6 +11,7 @@ import mongodbImage from '../../../assets/skills/mongodb.png';
 import figmaImage from '../../../assets/skills/figma.png';
 import googleImage from '../../../assets/history/google.png';
 import netflixImage from '../../../assets/history/netflix.png';
+import machineImage from '../../../assets/skills/machine.png';
 import styles from './Experience.module.css';
 
 const getSkillImageByTitle = (title) => {
@@ -29,6 +30,8 @@ const getSkillImageByTitle = (title) => {
       return mongodbImage;
     case 'Figma':
       return figmaImage;
+    case 'Machine':
+      return machineImage;
     default:
       return null; // Return a default image or handle unknown titles
   }
