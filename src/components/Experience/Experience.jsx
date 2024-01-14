@@ -9,9 +9,9 @@ import nodeImage from '../../../assets/skills/node.png';
 import graphqlImage from '../../../assets/skills/graphql.png';
 import mongodbImage from '../../../assets/skills/mongodb.png';
 import figmaImage from '../../../assets/skills/figma.png';
-import googleImage from '../../../assets/history/google.png';
 import netflixImage from '../../../assets/history/netflix.png';
-import machineImage from '../../../assets/skills/machine.png';
+import aicteImage from '../../../assets/history/aicte.png';
+import verzeoImage from '../../../assets/history/verzeo.png'
 import styles from './Experience.module.css';
 
 const getSkillImageByTitle = (title) => {
@@ -30,8 +30,8 @@ const getSkillImageByTitle = (title) => {
       return mongodbImage;
     case 'Figma':
       return figmaImage;
-    case 'Machine':
-      return machineImage;
+    // case 'Machine':
+    //   return machineImage;
     default:
       return null; // Return a default image or handle unknown titles
   }
@@ -39,10 +39,10 @@ const getSkillImageByTitle = (title) => {
 
 const getHistoryImageByOrg = (organization) => {
   switch (organization) {
-    case 'Google':
-      return googleImage;
-    case 'Netflix':
-      return netflixImage;
+    case 'AICTE':
+      return aicteImage;
+    case 'VERZEO':
+      return verzeoImage;
     default:
       return null; // Return a default image or handle unknown organizations
   }
