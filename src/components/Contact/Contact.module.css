@@ -38,10 +38,10 @@
   gap: 25px;
 }
 
-/* .link li {
-    width: 10px;
-    margin-left: 100px;
-} */
+.link img {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
 
 .link a {
   color: var(--color-text);
@@ -65,14 +65,14 @@
     align-items: center;
   }
   .text h2 {
-    font-size: 40px; /* Adjust as needed */
+    font-size: 30px; /* Adjust as needed */
   }
 
   .text p {
-    font-size: 20px; /* Adjust as needed */
+    font-size: 15px; /* Adjust as needed */
   }
 
   .link a {
-    font-size: 20px; /* Adjust as needed */
+    font-size: 15px; /* Adjust as needed */
   }
 }

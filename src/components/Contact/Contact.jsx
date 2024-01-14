@@ -3,7 +3,7 @@ import styles from './Contact.module.css';
 import emailIcon from '../../../assets/contact/emailIcon.png';
 import githubIcon from '../../../assets/contact/githubIcon.png';
 import linkedinIcon from '../../../assets/contact/linkedinIcon.png';
-// import whatsappIcon from '../../../assets/contact/whatsappIcon.png';
+import whatsapp from '../../../assets/contact/whatsapp.png';
 
 const Contact = () => {
   return (
@@ -25,10 +25,10 @@ const Contact = () => {
           <img src={linkedinIcon} alt='Linkedin icon' />
           <a href="https://www.linkedin.com/in/vignesh-lagishetti-69a102219/">linkedin.com/vignesh-lagishetti</a>
         </li>
-        {/* <li className={styles.link} name='whatsapp' id='whatsapp'>
-          <img src={whatsappIcon} alt='Whatsapp icon' />
+        <li className={styles.link} name='whatsapp' id='whatsapp'>
+          <img src={whatsapp} alt='Whatsapp' />
           <a href="https://wa.me/+917997238424">Whatsapp Me</a>
-        </li> */}
+        </li>
       </ul>
     </footer>
   );
