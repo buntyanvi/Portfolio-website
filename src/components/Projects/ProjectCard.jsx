@@ -29,5 +29,4 @@ const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, so
     </div>
   );
 };
-
 export default ProjectCard;
