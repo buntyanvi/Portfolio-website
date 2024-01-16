@@ -1,7 +1,9 @@
 // Experience.jsx
 import React from 'react';
+
 import history from '../../Data/history.json';
 import skills from '../../Data/skills.json';
+
 import htmlImage from '../../../assets/skills/html.png';
 import cssImage from '../../../assets/skills/css.png';
 import reactImage from '../../../assets/skills/react.png';
