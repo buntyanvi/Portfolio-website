@@ -1,5 +1,5 @@
 // Experience.jsx
-import React from 'react';
+// Remove the unused import statement for React
 
 import history from '../../Data/history.json';
 import skills from '../../Data/skills.json';
