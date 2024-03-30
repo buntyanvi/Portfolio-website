@@ -1,5 +1,5 @@
 // Experience.jsx
-// Remove the unused import statement for React
+import React from 'react';
 
 import history from '../../Data/history.json';
 import skills from '../../Data/skills.json';
@@ -7,14 +7,15 @@ import skills from '../../Data/skills.json';
 import htmlImage from '../../../assets/skills/html.png';
 import cssImage from '../../../assets/skills/css.png';
 import reactImage from '../../../assets/skills/react.png';
+import awsImage from '../../../assets/skills/aws.png';
 import pythonImage from '../../../assets/skills/python.png'
+
 import aicteImage from '../../../assets/history/aicte.png';
 import verzeoImage from '../../../assets/history/verzeo.png'
 import styles from './Experience.module.css';
 import machineImage from '../../../assets/skills/machine.png';
 import javascriptImage from '../../../assets/skills/javascript.png';
 import mysqlImage from '../../../assets/skills/mysql.png';
-import awsImage from '../../../assets/skills/aws.png';
 
 const getSkillImageByTitle = (title) => {
   switch (title) {
@@ -24,17 +25,18 @@ const getSkillImageByTitle = (title) => {
       return cssImage;
     case 'JavaScript':
       return javascriptImage;  
-    case 'AWS':
-      return awsImage;
     case 'React':
       return reactImage;
-    case 'MySql':
-      return mysqlImage;
+    case 'aws':
+      return awsImage;
+   
+      case 'MySql':
+        return mysqlImage;
+   
     case 'Python':
       return pythonImage;
     case 'Machine Learning':
       return machineImage;
-    
 
     default:
       return null; // Return a default image or handle unknown titles
