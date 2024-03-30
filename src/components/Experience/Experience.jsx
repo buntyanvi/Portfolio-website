@@ -29,10 +29,8 @@ const getSkillImageByTitle = (title) => {
       return reactImage;
     case 'aws':
       return awsImage;
-   
-      case 'MySql':
-        return mysqlImage;
-   
+    case 'MySql':
+      return mysqlImage;
     case 'Python':
       return pythonImage;
     case 'Machine Learning':
