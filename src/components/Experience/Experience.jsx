@@ -17,6 +17,7 @@ import styles from './Experience.module.css';
 import machineImage from '../../../assets/skills/machine.png';
 import javascriptImage from '../../../assets/skills/javascript.png';
 import mysqlImage from '../../../assets/skills/mysql.png';
+import awsImage from '../../../assets/skills/aws.png';
 
 const getSkillImageByTitle = (title) => {
   switch (title) {
@@ -26,20 +27,17 @@ const getSkillImageByTitle = (title) => {
       return cssImage;
     case 'JavaScript':
       return javascriptImage;  
+    case 'AWS':
+      return awsImage;
     case 'React':
       return reactImage;
-    case 'Node':
-      return nodeImage;
-    case 'MongoDB':
-      return mongodbImage;
-      case 'MySql':
-        return mysqlImage;
-    case 'Figma':
-      return figmaImage;
+    case 'MySql':
+      return mysqlImage;
     case 'Python':
       return pythonImage;
     case 'Machine Learning':
       return machineImage;
+    
 
     default:
       return null; // Return a default image or handle unknown titles
