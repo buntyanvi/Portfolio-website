@@ -1,11 +1,9 @@
 // ProjectCard.jsx
-import React from "react";
-import styles from "./ProjectCard.module.css";
+import PropTypes from 'prop-types'; // Import PropTypes
+import styles from './ProjectCard.module.css';
 import projectImage from '../../../assets/projects/project.png';
 
-export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source } }) => {
   return (
     <div className={styles.container}>
       <img
@@ -33,4 +31,17 @@ export const ProjectCard = ({
     </div>
   );
 };
+
+// Define propTypes for the component props
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+    demo: PropTypes.string.isRequired,
+    source: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
 export default ProjectCard;
