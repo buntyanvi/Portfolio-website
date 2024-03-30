@@ -7,10 +7,7 @@ import skills from '../../Data/skills.json';
 import htmlImage from '../../../assets/skills/html.png';
 import cssImage from '../../../assets/skills/css.png';
 import reactImage from '../../../assets/skills/react.png';
-import nodeImage from '../../../assets/skills/node.png';
 import pythonImage from '../../../assets/skills/python.png'
-import mongodbImage from '../../../assets/skills/mongodb.png';
-import figmaImage from '../../../assets/skills/figma.png';
 import aicteImage from '../../../assets/history/aicte.png';
 import verzeoImage from '../../../assets/history/verzeo.png'
 import styles from './Experience.module.css';
