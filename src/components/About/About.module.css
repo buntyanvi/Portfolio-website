@@ -11,6 +11,10 @@
   margin-right: 10%;
 }
 
+.h2{
+  padding-left: 50%;
+}
+
 .title {
   color: var(--color-text);
   font-size: 35px;

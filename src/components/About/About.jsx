@@ -29,10 +29,9 @@ export const About = () => {
             <li className={styles.aboutItem}>
               <img src={serverIcon} alt="Server icon" />
               <div className={styles.aboutItemText}>
-                <h3>Backend Developer</h3>
+                <h3>AWS Cloud</h3>
                 <p>
-                  I have experience developing fast and optimised back-end systems
-                  and APIs
+                As a cloud beginner, I am exploring AWS Cloud services to understand their capabilities and functionalities.
                 </p>
               </div>
             </li>

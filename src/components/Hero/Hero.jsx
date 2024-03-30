@@ -9,7 +9,9 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vignesh Lagishetti</h1>
         <p className={styles.description}>
-          MernStack Developer and Machine Learning Engineer,<br />
+          MernStack Beginner and AWS Cloud Expertise,<br/>
+        
+          
           Reach out if you'd like to learn more
         </p>
         <div className={styles.buttons}>
