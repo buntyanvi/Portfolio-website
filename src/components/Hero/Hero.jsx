@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vignesh Lagishetti</h1>
         <p className={styles.description}>
-          AWS Cloud Engineer and MERN Begineer,<br/>
+          AWS Cloud Engineer and MERN Beginner,<br/>
         
           
           Reach out if you'd like to learn more
