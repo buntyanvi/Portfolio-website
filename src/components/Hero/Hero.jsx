@@ -9,14 +9,14 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vignesh Lagishetti</h1>
         <p className={styles.description}>
-          MernStack Beginner and AWS Cloud Expertise,<br/>
+          AWS Cloud Engineer and MERN Begineer,<br/>
         
           
           Reach out if you'd like to learn more
         </p>
         <div className={styles.buttons}>
           <a className={styles.contactBtn} href='mailto:lvigneshbunty789@gmail.com'>Contact Me</a>
-          <a className={styles.resumeBtn}  href='https://1drv.ms/b/s!AoxDdc8JmWro_k1f8OeLvF1_PEW2?e=cODhdC'>Resume</a>
+          <a className={styles.resumeBtn}  href='https://1drv.ms/b/s!AoxDdc8JmWrogYQOHJGjZaUMoBmNhA?e=3MHRBJ'>Resume</a>
         </div>
       </div>
       <div className={styles.heroImgContainer}>
