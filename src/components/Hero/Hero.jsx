@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
         <div className={styles.buttons}>
           <a className={styles.contactBtn} href='mailto:lvigneshbunty789@gmail.com'>Contact Me</a>
-          <a className={styles.resumeBtn}  href='https://1drv.ms/b/s!AoxDdc8JmWrogYQOHJGjZaUMoBmNhA?e=3MHRBJ'>Resume</a>
+          <a className={styles.resumeBtn}  href='https://1drv.ms/b/s!AoxDdc8JmWrogYVYfIUIAOA3ntTGbA?e=DhXx6M'>Resume</a>
         </div>
       </div>
       <div className={styles.heroImgContainer}>
